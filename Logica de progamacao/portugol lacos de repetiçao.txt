@@ -1,0 +1,178 @@
+programa
+{
+
+
+	// Gerenciamento escolar
+	funcao inicio()
+{
+
+		escreva("\n"+"MENU DE OPERAÇOES")
+		escreva("\n"+" 1 - Gerenciar aluno")
+		escreva("\n"+" 2 - Matricular professor")
+		escreva("\n"+" 3 - Cadastrar Curso")
+		escreva("\n"+" 4 - Financeiro")
+		escreva("\n"+" 5 - Alunos ativos")
+		escreva("\n"+" 6 - SAIR")
+		escreva("\n"+" Selecione uma das opçoes : -> ")
+		
+		inteiro menu = 0
+		leia(menu)
+		
+		escolha(menu){
+			
+
+			caso 1 :{
+			
+					MenuAluno()
+					pare
+			}
+			caso 2 :{
+				escreva("Cadastrar professor disponivel")
+				pare
+				
+			}
+			caso 3 :{
+			    escreva("Cadastrar curso disponivel")
+				pare
+				
+			}
+			caso 4 :{
+				escreva("Entrando no modulo financeiro")
+				
+				pare
+				
+			}caso 5 :{
+				escreva("Lista de alunos ativos")
+				listaALuno()
+				
+				pare
+				
+			}caso 6 :{
+				
+								
+				pare
+				
+			}
+			
+			caso contrario : {
+				escreva("Digite ums submenu valido")
+				inicio()
+				
+			}
+			
+			
+		}
+
+
+		
+	}
+
+
+	funcao CalcularMedia(){
+		
+		real nota1
+		real nota2
+		real nota3
+		real nota4
+		real media
+
+		cadeia aluno
+		cadeia situacao = "NULO"
+
+		escreva("Digite o nome do aluno : ")
+		leia(aluno)
+		escreva("Digite a nota : 1 -> ")
+		leia(nota1)
+
+		escreva("Digite a nota : 2 -> ")
+		leia(nota2)
+
+		escreva("Digite a nota : 3 -> ")
+		leia(nota3)
+
+		escreva("Digite a nota : 4 -> ")
+		leia(nota4)
+		
+		media = (nota1 + nota2 + nota3 + nota4) / 4
+
+
+
+		se(media >= 7){
+			
+			situacao = "Aprovado"
+			
+		}senao{
+
+			situacao = "Reprovado"
+			
+		}
+		
+		escreva("A media do aluno "  +aluno+ " é de : " +media)
+		escreva("\n" + "O status academico do aluno é : " + situacao) 
+		inicio()
+
+		
+		}
+
+
+		funcao listaALuno(){
+			
+			inteiro contador = 0
+			inteiro limite  = 100
+			inteiro resultado
+
+			faca{
+
+				escreva("\n"+"Aluno com Matricula : " +(contador*15/5+2021)+ " Esta ativo")
+				contador ++
+				
+				
+				
+			}enquanto(contador <= limite)
+			
+			inicio()
+
+			
+		}
+
+		funcao MenuAluno(){
+			
+		
+		
+			escreva("MENU ALUNO")
+			escreva("\n"+" 1 - Calcular Media")
+			escreva("\n"+" 2 - Alunos ativo por matricula")
+			escreva("\n"+" 3 - SAIR")
+			escreva("\n"+" Selecione uma das opçoes : -> ")
+			
+			inteiro menu = 0
+			leia(menu)
+				
+				  escolha(menu){
+						caso 1 :{
+							CalcularMedia()
+							MenuAluno()
+							 pare
+						 }
+						 caso 2 :{
+							  listaALuno()
+							  MenuAluno()
+							  pare
+					       }
+					       caso 3 :{
+							 
+							  pare
+					       }	  
+						  caso contrario : {
+								MenuAluno()
+					       }
+						}
+				
+					}
+	
+			
+		
+
+
+	
+}

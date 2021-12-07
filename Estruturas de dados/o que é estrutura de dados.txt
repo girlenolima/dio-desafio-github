@@ -1,0 +1,8 @@
+Vetores e Matrizes
+Registro
+Lista
+Pilha
+Fila
+Arvore
+Tabela Hash
+Grafos

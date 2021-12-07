@@ -1,0 +1,20 @@
+ls -a lista arquivos ocultos
+git init inicializa o git na pasta selecionada
+
+
+**Configurando o git
+git config --global user.email "xxxxxxxa@gmail.com"
+git config --global user.name "xxxxxxx"
+git config --list lista todas as configuraçoes feitas
+
+**alterar os nomes das config
+git config --global --unset user.email
+git config --global --unset user.name
+
+
+**lincando git e github
+
+//origin é um apelo para o link do repositorio (ALIAS)
+
+git remote add origin git@github.com:xxxxxlima/livro-receitas.git
+git push origin master

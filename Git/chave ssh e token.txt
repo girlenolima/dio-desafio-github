@@ -1,0 +1,5 @@
+COMANDOS PARA GERAR A CHAVE SSH  E VINCULAR O PC OU GIT HUB
+ssh-keygen -t ed25519 -c xxxxx.xx@gmail.com
+
+eval $(ssh-agent -s) inicializando o monitor de chaves
+ssh-add id_ed25519   repassando nossa chave privada para ele

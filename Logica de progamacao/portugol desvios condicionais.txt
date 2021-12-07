@@ -1,0 +1,103 @@
+programa
+{
+
+
+	// Gerenciamento escolar
+	funcao inicio()
+{
+
+		escreva("MENU DE OPERAÇOES")
+		escreva("\n"+" 1 - Calcular Media")
+		escreva("\n"+" 2 - Matricular aluno")
+		escreva("\n"+" 3 - Matricular professor")
+		escreva("\n"+" 4 - Cadastrar Curso")
+		escreva("\n"+" 5 - Financeiro")
+		escreva("\n"+" Selecione uma das opçoes : -> ")
+		
+		inteiro menu = 0
+		leia(menu)
+		
+		escolha(menu){
+			
+			caso 1:{
+				CalcularMedia()
+				pare
+			}
+			caso 2 :{
+				escreva("Cadastrar aluno disponivel")
+				pare
+			}
+			caso 3 :{
+				escreva("Cadastrar professor disponivel")
+				pare
+				
+			}
+			caso 4 :{
+			    escreva("Cadastrar curso disponivel")
+				pare
+				
+			}
+			caso 5 :{
+				escreva("Entrando no modulo financeiro")
+				pare
+				
+			}
+			caso contrario : {
+				escreva("Digite ums submenu valido")
+				inicio()
+				
+			}
+			
+			
+		}
+
+
+		
+	}
+
+
+	funcao CalcularMedia(){
+		
+		real nota1
+		real nota2
+		real nota3
+		real nota4
+		real media
+
+		cadeia aluno
+		cadeia situacao = "NULO"
+
+		escreva("Digite o nome do aluno : ")
+		leia(aluno)
+		escreva("Digite a nota : 1 -> ")
+		leia(nota1)
+
+		escreva("Digite a nota : 2 -> ")
+		leia(nota2)
+
+		escreva("Digite a nota : 3 -> ")
+		leia(nota3)
+
+		escreva("Digite a nota : 4 -> ")
+		leia(nota4)
+		
+		media = (nota1 + nota2 + nota3 + nota4) / 4
+
+
+
+		se(media >= 7){
+			
+			situacao = "Aprovado"
+			
+		}senao{
+
+			situacao = "Reprovado"
+			
+		}
+		
+		escreva("A media do aluno "  +aluno+ " é de : " +media)
+		escreva("\n" + "O status academico do aluno é : " + situacao) 
+		
+		
+		}
+}

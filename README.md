@@ -6,13 +6,26 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
 <ul>
   <li> ✔️ Mentoria #1: Aula Inaugural - Bootcamp Cognizant</li>
   <li> ✔️ Lógica de Programação Essencial</li>
-              <ul>
-              <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Logica%20de%20progamacao</link></li>
-              </ul>
+               <ul>
+               <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Logica%20de%20progamacao</link></li>
+               </ul>
   <li> ✔️ Aprenda o que são Estrutura de Dados e Algoritmos</li>
+                <ul>
+                <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20dados</link></li>
+                </ul>
   <li> ✔️ Introdução ao Git e ao GitHub</li>
+                <ul>
+                <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Git</link></li>
+                </ul>
+  
   <li> ✔️ Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</li>
+                <ul>
+                <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Git</link></li>
+                </ul>
   <li> ✔️ Mentoria #2: Como é ser um Desenvolvedor na Cognizant. Ambiente de trabalho e desafios</li>
+                <ul>
+                <li><link> https://www.youtube.com/watch?v=llgJpvOzhd4 </link></li>
+                </ul>
   <li> 📅 Dominando IDEs Java</li>
   <li> 📅 Variáveis, Tipos de Dados e Operadores Matemáticos em Java</li>
   <li> 📅 Entendendo Métodos Java</li>

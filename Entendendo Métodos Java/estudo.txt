@@ -1,0 +1,34 @@
+conceituaçao
+
+definiçao
+
+visibilidade tipo modificador retorno nome(paramtros) execoes {
+
+		corpo
+
+}
+
+Visibilidade...: public, protected ou provate
+Tipo...........: concreto ou abstrato
+Modificador....: static ou final
+Retorn.........: void
+Nome...........: nome do metodo
+Pametros.......:
+execoes........:
+corpo..........:
+
+Metodo passa uma menssagem de uma classe para outra
+
+Como chamar um metodo:
+classe.metodo();
+classe.metodo(parametros);
+objeto.metodo();
+objeto.metodo(parametros);
+
+Assinatura é forma de indetificar unicamente um metodo :
+nome + paramtros
+
+construtor e destrutor
+passagem de parametros
+
+

@@ -1,0 +1,44 @@
+package br.com.projeto.desafioDDD;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+
+public class testes {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int entrada = sc.nextInt();
+
+        Map<Integer, String> cidadeEddd = new HashMap<>();
+        cidadeEddd.put(61, "Brasilia");
+        cidadeEddd.put(71, "Salvador");
+        cidadeEddd.put(11, "Sao Paulo");
+        cidadeEddd.put(21, "Rio de Janeiro");
+        cidadeEddd.put(32, "Juiz de Fora");
+        cidadeEddd.put(19, "Campinas");
+        cidadeEddd.put(27, "Vitoria");
+        cidadeEddd.put(31, "Belo Horizonte");
+
+
+        String resultado = String.valueOf(cidadeEddd.entrySet()
+                .stream()
+                .filter(ddd -> ddd.getKey() == entrada)
+                .map(ddd -> ddd.getValue())
+                .collect(Collectors.joining(";")));
+
+        if (resultado.isEmpty()) {
+
+            System.out.println("DDD nao cadastrado");
+
+        } else {
+
+            System.out.println(resultado);
+
+        }
+
+
+    }
+}

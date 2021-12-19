@@ -26,15 +26,33 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
                 <ul>
                 <li><link> https://www.youtube.com/watch?v=llgJpvOzhd4 </link></li>
                 </ul>
-  <li> 📅 Dominando IDEs Java</li>
-  <li> 📅 Variáveis, Tipos de Dados e Operadores Matemáticos em Java</li>
-  <li> 📅 Entendendo Métodos Java</li>
-  <li> 📅 Lógica Condicional e Controle de Fluxos em Java</li>
-  <li> 📅 Estruturas de Repetição e Arrays em Java</li>
+  <li> ✔️ Dominando IDEs Java</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Dominando%20IDES%20Java </link></li>
+                </ul>
+  <li> ✔️ Variáveis, Tipos de Dados e Operadores Matemáticos em Java</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Variaveis </link></li>
+                </ul>  
+  <li> ✔️  Entendendo Métodos Java</li>
+                 <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Entendendo%20M%C3%A9todos%20Java </link></li>
+                </ul>
+  <li> ✔️  Lógica Condicional e Controle de Fluxos em Java</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Logica%20Condicional%20e%20Controle%20de%20Fluxos%20em%20Java </link></li>
+                </ul>
+  <li> ✔️ Estruturas de Repetição e Arrays em Java</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Repeti%C3%A7%C3%A3o%20e%20Arrays%20em%20Java </link></li>
+                </ul>
   <li> 📅 Reforçando o Conceito de Laços em Java</li>
-  <li> 📅 Mentoria #3: Como resolver os desafios de código</li>
+  <li> ✔️ Mentoria #3: Como resolver os desafios de código</li>
+                <ul>
+                <li><link> https://web.dio.me/live/mentoria-3-como-resolver-os-desafios-de-codigo-1/learning/114341b7-5bc7-454d-beac-423a8aba4d87 </link></li>
+                </ul>
   <li> 📅 Resolvendo Desafios de Código em Java</li>
-  <li> 📅 Desafio Java Iniciante - Cognizant Developer</li>
+  <li> ✔️ Desafio Java Iniciante - Cognizant Developer</li>
   <li> 📅 Estruturas de Dados em Java: Introdução</li>
   <li> 📅 Estruturas de Dados em Java: Pilhas e Filas</li>
   <li> 📅 Estruturas de Dados em Java: Listas</li>

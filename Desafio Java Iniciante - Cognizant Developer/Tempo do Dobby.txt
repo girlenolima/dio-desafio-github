@@ -1,0 +1,21 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Problem {
+    public static void main(String[] args) throws IOException {
+       Scanner leitor = new Scanner(System.in);
+
+        int tempoDisponivel = leitor.nextInt(); // quantidade de minutos para encerrar o expediente
+        int atividadeA = leitor.nextInt(); // tempo necessario para criar o primeiro presente
+        int atividadeB = leitor.nextInt();  //tempo necessario para criar o segundo presente
+        int tempoTotalDeCronstrucao = atividadeA + atividadeB;
+
+        
+        if (tempoTotalDeCronstrucao > tempoDisponivel) {
+            System.out.println("Deixa para amanha!");
+        } else {
+            System.out.println("Farei hoje!");
+        }
+    }
+	
+}

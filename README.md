@@ -53,6 +53,9 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
                 </ul>
   <li> 📅 Resolvendo Desafios de Código em Java</li>
   <li> ✔️ Desafio Java Iniciante - Cognizant Developer</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Desafio%20Java%20Iniciante%20-%20Cognizant%20Developer </link></li>
+                </ul>
   <li> 📅 Estruturas de Dados em Java: Introdução</li>
   <li> 📅 Estruturas de Dados em Java: Pilhas e Filas</li>
   <li> 📅 Estruturas de Dados em Java: Listas</li>

@@ -1,0 +1,38 @@
+package br.com.projeto.pilhas;
+
+public class NO {
+
+    private int dado;
+    private NO refNo = null;
+
+
+    public NO() {
+    }
+
+    public NO(int dado) {
+        this.dado = dado;
+    }
+
+    public int getDado() {
+        return dado;
+    }
+
+    public void setDado(int dado) {
+        this.dado = dado;
+    }
+
+    public NO getRefNo() {
+        return refNo;
+    }
+
+    public void setRefNo(NO refNo) {
+        this.refNo = refNo;
+    }
+
+    @Override
+    public String toString() {
+        return "NO{" +
+                "dado=" + dado +
+                '}';
+    }
+}

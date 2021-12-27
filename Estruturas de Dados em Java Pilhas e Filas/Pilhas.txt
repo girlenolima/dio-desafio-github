@@ -1,0 +1,71 @@
+package br.com.projeto.pilhas;
+
+public class Pilha {
+
+
+    private NO refNoEntradaPilha;
+
+    public Pilha() {
+        this.refNoEntradaPilha = null;
+    }
+
+    //se retornar null quer dizer que a pilha esta vazia
+    public boolean isEmpty() {
+
+        if (refNoEntradaPilha == null) {
+            return true;
+        }
+        return false;
+    }
+
+    public NO top() {
+        return refNoEntradaPilha;
+    }
+
+
+    //adiciona um intem a pilha
+    public void push(NO novoNO){
+
+        NO auxilarRef = refNoEntradaPilha;
+
+        refNoEntradaPilha = novoNO;
+        refNoEntradaPilha.setRefNo(auxilarRef);
+
+    }
+
+    public NO pop(){
+
+        if(!this.isEmpty()){
+            NO noPopet = refNoEntradaPilha;
+
+            refNoEntradaPilha = refNoEntradaPilha.getRefNo();
+            return noPopet;
+
+
+        }
+        return null;
+    }
+
+
+    @Override
+    public String toString() {
+        String retorno  ="--------------------------\n";
+        retorno += "          Pilha\n";
+        retorno += "--------------------------\n";
+
+
+        NO auxiliar = refNoEntradaPilha;
+
+        while(true){
+          if(auxiliar != null){
+              retorno += "[NO {dado=" + auxiliar.getDado() +"}]\n";
+              auxiliar = auxiliar.getRefNo();
+
+          }else{
+              break;
+          }
+        }
+        retorno += "--------------------------";
+        return retorno;
+    }
+}

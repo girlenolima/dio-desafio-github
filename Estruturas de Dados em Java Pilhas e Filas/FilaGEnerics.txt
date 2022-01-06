@@ -1,0 +1,91 @@
+package br.com.projeto.filas;
+
+public class FilaComGeneric<T> {
+
+    private Node<T> refNoEntradaFila;
+
+    public FilaComGeneric() {
+
+        this.refNoEntradaFila = null;
+
+    }
+
+    public boolean isEmpty() {
+
+        if (refNoEntradaFila == null) {
+            return true;
+        }
+        return false;
+    }
+
+    public void enqueue(T obj) {
+
+        Node newNode = new Node(obj);
+        newNode.setRefNode(refNoEntradaFila);
+        refNoEntradaFila = newNode;
+
+    }
+
+    public T first() {
+        if (!this.isEmpty()) {
+
+            Node firstNode = refNoEntradaFila;
+            while (true) {
+                if (firstNode.getRefNode() != null) {
+                    firstNode = firstNode.getRefNode();
+
+                } else {
+
+                    break;
+                }
+            }
+            return(T)firstNode.getObject();
+        }
+        return null;
+    }
+
+    public T deQueue() {
+        if (!isEmpty()) {
+
+            Node firstNode = refNoEntradaFila;
+            Node aux = refNoEntradaFila;
+
+            while (true) {
+                if (firstNode.getRefNode() != null) {
+                    aux = firstNode;
+                    firstNode = firstNode.getRefNode();
+
+                } else {
+                    aux.setRefNode(null);
+                    break;
+                }
+            }
+
+            return (T) firstNode.getObject();
+        }
+        return null;
+    }
+
+    @Override
+    public String toString() {
+
+        String ret = "";
+        Node aux = refNoEntradaFila;
+        if (refNoEntradaFila != null) {
+            while (true) {
+                ret += aux.getObject() + "->";
+
+                if (aux.getRefNode() != null) {
+                    aux = aux.getRefNode();
+                } else {
+                    ret += "null";
+                    break;
+                }
+            }
+        } else {
+            ret = null;
+        }
+        return ret;
+
+    }
+}

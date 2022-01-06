@@ -46,22 +46,31 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
                 <ul>
                 <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Repeti%C3%A7%C3%A3o%20e%20Arrays%20em%20Java </link></li>
                 </ul>
-  <li> 📅 Reforçando o Conceito de Laços em Java</li>
+  <li> ✔️ Reforçando o Conceito de Laços em Java</li>
   <li> ✔️ Mentoria #3: Como resolver os desafios de código</li>
                 <ul>
                 <li><link> https://web.dio.me/live/mentoria-3-como-resolver-os-desafios-de-codigo-1/learning/114341b7-5bc7-454d-beac-423a8aba4d87 </link></li>
                 </ul>
-  <li> 📅 Resolvendo Desafios de Código em Java</li>
+  <li> ✔️ Resolvendo Desafios de Código em Java</li>
   <li> ✔️ Desafio Java Iniciante - Cognizant Developer</li>
                 <ul>
                 <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Desafio%20Java%20Iniciante%20-%20Cognizant%20Developer </link></li>
                 </ul>
-  <li> 📅 Estruturas de Dados em Java: Introdução</li>
-  <li> 📅 Estruturas de Dados em Java: Pilhas e Filas</li>
-  <li> 📅 Estruturas de Dados em Java: Listas</li>
+  <li> ✔️ Estruturas de Dados em Java: Introdução</li>
+                 <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Dados%20em%20Java%20Introdu%C3%A7%C3%A3o </link></li>
+                </ul>
+  <li> ✔️ Estruturas de Dados em Java: Pilhas e Filas</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Dados%20em%20Java%20Pilhas%20e%20Filas</link></li>
+                </ul>
+  <li> ✔️ Estruturas de Dados em Java: Listas</li>
+                <ul>
+                <li><link> https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Dados%20em%20Java%20Listas</link></li>
+                </ul>
   <li> 📅 Estruturas de Dados em Java: Árvores</li>
   <li> 📅 Estruturas de Dados em Java: Principais Implementações</li>
-  <li> 📅 Introdução a orientação a objetos com Java</li>
+  <li> ✔️ Introdução a orientação a objetos com Java</li>
   <li> 📅 Debugging Java</li>
   <li> 📅 Tratamento de Exceções em Java</li>
   <li> 📅 Trabalhando com Collections Java</li>

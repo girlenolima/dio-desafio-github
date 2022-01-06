@@ -4,7 +4,7 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
 ## 🗺️ Grade curricular bootcamp
 <div style="display: inline_block">
 <ul>
-  <li> ✔️ Mentoria #1: Aula Inaugural - Bootcamp Cognizant</li>
+  <li> ✔️ ##### Mentoria #1: Aula Inaugural - Bootcamp Cognizant</li>
   <li> ✔️ Lógica de Programação Essencial</li>
                <ul>
                <li><link>https://github.com/girlenolima/dio-desafio-github/tree/main/Logica%20de%20progamacao</link></li>

@@ -1,0 +1,36 @@
+
+
+Todas essas estrturas foram estudadas suas implementaçoes manuais.
+O java contem implementaçoes prorias que serao estudas agora.
+
+Esquals e Hashcode
+ - Melhora a busca de objetos
+ - Devem ser implementados juntos
+
+Stack (Pilha)
+- Push
+- Pop
+- Searching
+- peek
+- empity
+
+Queue (Filas / LinkedList)
+- add
+- offer
+- peek
+- remove
+- poll
+- isEmpty
+
+List (Array list)
+- add
+- contais
+- get
+- indexOf
+- remove
+
+Set (HashSet / Conjuntos)
+
+Map (Chave valor)
+
+

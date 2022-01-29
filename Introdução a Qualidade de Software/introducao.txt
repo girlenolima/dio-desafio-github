@@ -1,0 +1,58 @@
+﻿QUALIDADE DE SOFTWARE
+
+Tipos de teste
+------------------------------
+ * Teste de Funcionalidade.
+ * Teste de Usabilidade.
+ * Teste de Performance.
+ * Teste de Seguranca.
+
+
+Niveis de Teste
+------------------------------
+ * Teste de Unidade.
+ * Teste de Integracao.
+ * Teste de Sistema.
+ * Teste de Aceitacao (visao cliente).
+
+
+Tecnicas de Teste
+------------------------------
+ * Teste Funcional.
+ * Teste Estrutural.
+ 
+ 
+ Teste estaticos
+ ------------------------------
+ * Verificaçao de Diagramas.
+ * Codigo.
+ * Plano de Teste.
+ * Especificacao de Testes.
+ * Script de Teste.
+ * Manual de Usuario.
+ 
+
+ PROCESSO
+ ------------------------------
+ * PLANEJAR
+     * Leitura dos resquisitos
+     * Levantamento de duvidas
+     * Ideias de teste
+     * Estimativa
+     * Particao por equivalencia
+     * Analise de valor limite (limite com if)
+     * Tabela de decisao (tabela de condicao e regras)
+     * Testes por transicao de estados (diagramas documentados)
+ 
+ * PROJETAR
+    * Nome / Titulo
+    * Objetivo
+    * Pre-condiçoes
+    * Passo a passo
+    * Resultado esperando
+		 
+ * EXECUTAR
+ * ENTREGAR
+ 
+ 
+

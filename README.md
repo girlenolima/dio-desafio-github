@@ -23,29 +23,29 @@ Repositorio criado para o desafio de projeto, com objetivo de organizar o conhec
 #### ✔️ [Estruturas de Dados em Java: Pilhas e Filas](https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Dados%20em%20Java%20Pilhas%20e%20Filas)
 #### ✔️ [Estruturas de Dados em Java: Listas](https://github.com/girlenolima/dio-desafio-github/tree/main/Estruturas%20de%20Dados%20em%20Java%20Listas)
              
-#### 📅 Estruturas de Dados em Java: Árvores
-#### 📅 Estruturas de Dados em Java: Principais Implementações
+#### ✔️ Estruturas de Dados em Java: Árvores
+#### ✔️ Estruturas de Dados em Java: Principais Implementações
 #### ✔️ Introdução a orientação a objetos com Java
-#### 📅 Debugging Java
-#### 📅 Tratamento de Exceções em Java
-#### 📅 Trabalhando com Collections Java
-#### 📅 Introdução a microsserviços
-#### 📅 Introdução a Qualidade de Software
-#### 📅 Aprenda a aplicar testes com Java
-#### 📅 Desafio Java - Cognizant Developer
-#### 📅 Criando um Banco Digital com Java e Orientação a Objetos
-#### 📅 SQL SERVER - Criando suas primeiras consultas
-#### 📅 Modelando um banco de dados na prática com SQL SERVER
-#### 📅 SQL Server: Boas práticas em bancos relacionais
-#### 📅 Introdução a APIs e métodos HTTP
-#### 📅 Introdução ao framework Spring Boot
-#### 📅 Simplificando Projetos Java com o Spring Boot
-#### 📅 Introdução aos Conceitos de API e Clean Architecture
-#### 📅 Desenvolvendo um sistema de gerenciamento de pessoas em API REST com
-#### 📅 Mentoria #4: Consumindo uma API Rest
-#### 📅 Criando API Gateways no ambiente Azure Spring Cloud
-#### 📅 Microsserviços em Spring Cloud com Java
-#### 📅 Mentoria #5: Function as a Service (FaaS) o que é e como utilizá-las
+#### ✔️ Debugging Java
+#### ✔️ Tratamento de Exceções em Java
+#### ✔️ Trabalhando com Collections Java
+#### ✔️ Introdução a microsserviços
+#### ✔️ Introdução a Qualidade de Software
+#### ✔️ Aprenda a aplicar testes com Java
+#### ✔️ Desafio Java - Cognizant Developer
+#### ✔️ Criando um Banco Digital com Java e Orientação a Objetos
+#### ✔️ SQL SERVER - Criando suas primeiras consultas
+#### ✔️ Modelando um banco de dados na prática com SQL SERVER
+#### ✔️ SQL Server: Boas práticas em bancos relacionais
+#### ✔️ Introdução a APIs e métodos HTTP
+#### ✔️ Introdução ao framework Spring Boot
+#### ✔️ Simplificando Projetos Java com o Spring Boot
+#### ✔️ Introdução aos Conceitos de API e Clean Architecture
+#### ✔️ Desenvolvendo um sistema de gerenciamento de pessoas em API REST com
+#### ✔️ Mentoria #4: Consumindo uma API Rest
+#### ✔️ Criando API Gateways no ambiente Azure Spring Cloud
+#### ✔️ Microsserviços em Spring Cloud com Java
+#### ✔️ Mentoria #5: Function as a Service (FaaS) o que é e como utilizá-las
 
 
 
